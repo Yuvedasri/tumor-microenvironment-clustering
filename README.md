@@ -66,4 +66,43 @@ region-level analysis.
 ---
 
 ## Project Structure
+Tumor-Microenvironment-Clustering/
+├── data/ # Synthetic tumor microenvironment datasets
+├── notebooks/ # Jupyter notebook with full analysis
+├── results/ # Clustering visualizations
+├── README.md
+└── requirements.txt
+
+
+
+---
+
+## How to Run
+1. Install dependencies:
+
+pip install -r requirements.txt
+
+2. Open the notebook in the `notebooks/` folder
+3. Run cells sequentially to reproduce results
+
+---
+
+## Tools & Technologies
+- Python
+- NumPy, Pandas
+- Scikit-learn
+- Matplotlib, Seaborn
+
+---
+
+## Research Context
+This project is designed as a **computational research exercise** to demonstrate
+preparedness for analyzing spatial and omics-style biomedical data using
+statistical machine learning techniques.
+
+---
+
+## Author
+Yuveda
+
 
