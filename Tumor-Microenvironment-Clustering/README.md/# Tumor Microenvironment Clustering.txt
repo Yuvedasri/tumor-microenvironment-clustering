@@ -1,0 +1,41 @@
+# Tumor Microenvironment Clustering using Statistical Machine Learning
+
+## Project Overview
+Tumors are not uniform; different regions exhibit varying biological
+conditions such as immune activity, oxygen availability, and growth behavior.
+This project simulates a tumor microenvironment and applies unsupervised
+machine learning to discover heterogeneous spatial regions.
+
+## Dataset Description
+A synthetic dataset of 400 tumor regions was generated.
+Each region includes:
+- Spatial coordinates (x, y)
+- Immune activity
+- Structural support
+- Oxygen availability
+- Blood supply
+- Growth rate
+
+Synthetic data enables controlled experimentation and interpretability.
+
+## Methodology
+- Feature standardization using StandardScaler
+- Unsupervised clustering using K-Means
+- Spatial visualization of discovered clusters
+- Cluster-wise feature interpretation
+
+## Results & Interpretation
+The model identified distinct tumor microenvironment regions, including:
+- Immune-dominant areas
+- Hypoxic (low-oxygen) regions
+- Support-heavy zones
+- Mixed transitional regions
+
+These findings demonstrate tumor heterogeneity and the importance of
+region-level analysis.
+
+## Tools & Technologies
+Python, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
+
+## Author
+Yuveda
